@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>ex-dischi-musicali</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div id="root">
+    <header>
+      <div class="container">
+        <img src="img/logo.png" alt="logo" />
+      </div>
+    </header>
+
+    <div class="cds-container container">
+
+      <div v-for="disk in disksRender" class="cd">
+        <img :src="disk.poster" alt="disk.title">
+
+        <h3>{{disk.title}}</h3>
+
+        <span class="author">{{disk.author}}</span>
+
+        <span class="year">{{disk.year}}</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js" charset="utf-8"></script>
+</body>
+</html>
