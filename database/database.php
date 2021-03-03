@@ -1,6 +1,104 @@
 <?php
 $disks = [
   [
+    "poster" => "https://i.scdn.co/image/ab67616d00001e023a92b744cb9b03b73f95546c",
+    "title" => "Mortal Reminder",
+    "author" => "Pentakill",
+    "genre" => "Metal",
+    "year" => "2017"
+  ],
+  [
+    "poster" => "https://i.scdn.co/image/ab67616d00001e022129499f41a75fdc416d93d4",
+    "title" => "Keelhauled",
+    "author" => "Alestorm",
+    "genre" => "Metal",
+    "year" => "2008"
+  ],
+  [
+    "poster" => "https://i.scdn.co/image/ab67616d00001e0250d216aebaf98e8ac9947fd5",
+    "title" => "Freak On a Leash",
+    "author" => "Korn",
+    "genre" => "Metal",
+    "year" => "1998"
+  ],
+  [
+    "poster" => "https://i.scdn.co/image/ab67616d00001e02a58c62e75b82e9c3b47d9ef3",
+    "title" => "Immortalized",
+    "author" => "Disturbed",
+    "genre" => "Metal",
+    "year" => "2015"
+  ],
+  [
+    "poster" => "https://i.scdn.co/image/ab67616d00001e0224edb22d068eb245a924b7f2",
+    "title" => "Death by Glamour",
+    "author" => "Toby Fox",
+    "genre" => "Videogames",
+    "year" => "2015"
+  ],
+  [
+    "poster" => "https://i.scdn.co/image/ab67616d00001e02ae859022b02dfe42b2c7a04d",
+    "title" => "I'll keep coming",
+    "author" => "Low roar",
+    "genre" => "Alternative/Indie",
+    "year" => "2014"
+  ],
+  [
+    "poster" => "https://i.scdn.co/image/ab67616d00001e0203605f198e31d58f3f66abc0",
+    "title" => "As We Fall",
+    "author" => "League of Legends",
+    "genre" => "Videogames",
+    "year" => "2017"
+  ],
+  [
+    "poster" => "https://i.scdn.co/image/ab67616d00001e02110e1d83bfe64aab24773368",
+    "title" => "La ballata degli annegati",
+    "author" => "Barbascura X",
+    "genre" => "Alternative/Indie",
+    "year" => "2018"
+  ],
+  [
+    "poster" => "https://i.scdn.co/image/ab67616d00001e02ad5d56b414f69495ef7f583d",
+    "title" => "Outlander",
+    "author" => "Jinjer",
+    "genre" => "Metal",
+    "year" => "2018"
+  ],
+  [
+    "poster" => "https://i.scdn.co/image/ab67616d00001e02901a644495ebb61291e8ea38",
+    "title" => "Margot",
+    "author" => "Nitro",
+    "genre" => "Hip-Hop",
+    "year" => "2013"
+  ],
+  [
+    "poster" => "https://i.scdn.co/image/ab67616d00001e0278b7eaa4a5e69e0e41413cae",
+    "title" => "Cicatrici",
+    "author" => "Nitro",
+    "genre" => "Hip-Hop",
+    "year" => "2020"
+  ],
+  [
+    "poster" => "https://i.scdn.co/image/ab67616d00001e02cfe4163cbb6d12f3ec15898e",
+    "title" => "Maneater",
+    "author" => "Daryl Hall & John Oates",
+    "genre" => "Pop",
+    "year" => "2020"
+  ],
+  [
+    "poster" => "https://i.scdn.co/image/ab67616d00001e024cca40647f8b57382231a94e",
+    "title" => "Cuéntale",
+    "author" => "Don Omar",
+    "genre" => "Reggaeton",
+    "year" => "2006"
+  ],
+  [
+    "poster" => "https://i.scdn.co/image/ab67616d00001e02bb85bcab29cd1c193c46afb1",
+    "title" => "DEVIL",
+    "author" => "Shinedown",
+    "genre" => "Alternative/Indie",
+    "year" => "2018"
+  ],
+  [
     "poster" => "https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg",
     "title" => "New Jersey",
     "author" => "Bon Jovi",

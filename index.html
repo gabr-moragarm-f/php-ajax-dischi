@@ -16,9 +16,19 @@
       </div>
     </header>
 
+    <div class="search-bar">
+      <select v-model="selectedGenre" class="select-genre" name="select-genre">
+        <option value="">Filter for a genre</option>
+
+        <option v-for="genre in genres" :value="genre.toLowerCase()">{{genre}}</option>
+      </select>
+
+      <button @click="filterGenre" type="button" name="button">Filter!</button>
+    </div>
+
     <div class="cds-container container">
 
-      <div v-for="disk in disksRender" class="cd">
+      <div v-for="disk in disks" class="cd">
         <img :src="disk.poster" alt="disk.title">
 
         <h3>{{disk.title}}</h3>
